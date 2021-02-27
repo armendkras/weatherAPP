@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app {
+  background-image: url('./asets//mont.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-in-out;
+ 
+}
+.app.warm {
+  background-image:url('./asets//mont-warm.jpg') ;
+
+}
+main{
+  min-height: 100vh;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+  padding: 25px;
+}
